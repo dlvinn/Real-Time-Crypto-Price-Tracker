@@ -34,3 +34,29 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Project Structure and Key Decisions
+
+1. **Folder Structure:**
+   - `/src`: Contains the source code of the application.
+     - `/lib`: Contains utility functions and services.
+     - `/app`: Contains the main application code.
+       
+
+2. **Architecture:**
+   - **Frontend Framework**: Built with React and Next.js for server-side rendering and routing.
+   - **State Management**: Utilizes Redux for managing WebSocket connection status, error messages and messages .
+   - **Styling**: Uses Tailwind CSS for styling components and layouts.
+
+3. **Libraries Used:**
+   - React: Frontend library for building user interfaces.
+   - Next.js: React framework for server-side rendering and routing.
+   - Redux: State management library for managing WebSocket connection state.
+   - Tailwind CSS: Utility-first CSS framework for styling components.
+   - WebSocket API: Used for real-time communication with the cryptocurrency exchange server.
+
+### Documentation
+
+1. **Custom Components or Services**:
+   - Documentation for custom components and services can be found within their respective files in the `/src/app` and `/src/lib` directories.
+
