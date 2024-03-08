@@ -1,6 +1,4 @@
-## Netlify link to the app
-https://cryptocurrencyerftgyjhuygtfrde.netlify.app/
-***
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -64,3 +62,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 1. **Custom Components or Services**:
    - Documentation for custom components and services can be found within their respective files in the `/src/app` and `/src/lib` directories.
 
+***
+
+## Netlify link to the app
+https://cryptocurrencyerftgyjhuygtfrde.netlify.app/
