@@ -61,7 +61,7 @@ export default function Home() {
       </div>
     </div>
   
-  <div className='grid md:grid-cols-4 sm:flex sm:flex-column gap-3'>
+  <div className='grid md:grid-cols-4 sm:flex sm:flex-col gap-3'>
   <span className="col-span-4 m-auto p-5 text-lg">WebSocket Messages</span>
   {Object.entries(cryptoPairs).map(([pair, description]) => (
     <div key={pair} className="">
