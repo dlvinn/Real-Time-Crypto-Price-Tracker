@@ -46,7 +46,7 @@ const CurrencyPrice = ({
 </div>
 :
 
-<div className='dark:bg-gray-900 bg-white flex justify-center items-center p-14 h-screen text-3xl dark:text-yellow-100'>
+<div className='dark:bg-gray-900 bg-white flex justify-center text-black items-center p-14 h-screen text-3xl dark:text-yellow-100'>
   <ul className='dark:bg-gray-800 bg-yellow-100 text-black rounded-xl shadow-2xl shadow-yellow-400'>
 {tickerMessages.length > 0 && (
 <li className='p-2'>
